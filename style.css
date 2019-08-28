@@ -1,0 +1,115 @@
+#main {
+    margin: 0.auto;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+#title {
+    text-align: center;
+    border: 6px solid black;
+    font-size: 20px;
+    color: blue;
+    background-color: grey
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#background {
+    width: 950px;
+    height: 500px;
+    background-color: black;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin-top: 42px ; 
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+#clikme {
+    position:absolute;
+    z-index: 999;
+    background-color: red;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;  
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+  
+    
+}
+#clikme {
+
+    animation-name: rotating;
+    animation-delay: 2s;
+    animation-duration: infinite;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating { 
+    animation: rotating 2s linear infinite;}
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#rightbar {
+    width: 25%;
+    height: 550px;
+    background-color: rgb(82, 164, 242);
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+
+
+.grp {
+    background-color: white;
+    margin: 5px 20px 15px 70px;
+    width: 60%;
+    height: 13%;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.theHS {
+    background-color: white;
+    margin: 5px 20px 15px 70px;
+    width: 60%;
+    height: 20%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
+ 
+}
+
+span {
+    display: block;
+    padding: 15px;
+    color: green
+}
+
+button {
+    font-weight: bold;
+    margin: 0px 0px 0px 400px;
+    padding: 10px 30px;
+    background: rgb(17, 153, 5);
+    color: #000000;
+
+}
